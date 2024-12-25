@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     "api.apps.ApiConfig",
-    "ut.apps.UtConfig"
+    "ut.apps.UtConfig",
+    "wms.apps.WmsConfig"
 ]
 
 MIDDLEWARE = [

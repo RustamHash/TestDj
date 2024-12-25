@@ -11,7 +11,7 @@ menus = [
 ]
 
 
-# @csrf_exempt
+@csrf_exempt
 def index(request):
     context = {
         'data': 'Тестовая страница Лепехина',
@@ -20,6 +20,7 @@ def index(request):
     return render(request, 'ut/home.html', context=context)
 
 
+@csrf_exempt
 def debit_client(request):
     if request.method == 'POST':
         file_ut = request.FILES['file_ut']
@@ -37,6 +38,7 @@ def debit_client(request):
         return render(request, 'ut/show_result.html', context=context)
 
 
+@csrf_exempt
 def debit_provider(request):
     if request.method == 'POST':
         file = request.FILES['file']
@@ -53,6 +55,7 @@ def debit_provider(request):
         return render(request, 'ut/show_result.html', context=context)
 
 
+@csrf_exempt
 def compare_stock(request):
     if request.method == 'POST':
         file = request.FILES['file']
