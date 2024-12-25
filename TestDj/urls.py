@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('ut.urls')),
-    path('api/', include('api.urls'))
+    path('admin/', csrf_exempt(admin.site.urls)),
+    path('', csrf_exempt(include('ut.urls'))),
+    path('api/', csrf_exempt(include('api.urls')))
 ]
