@@ -1,0 +1,19 @@
+.login_div {
+    width: 450px;
+    margin: 200px auto;
+}
+
+.login_div table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_div table td {
+    padding: 5px;
+}
+
+.loginErrorField {
+    color: red;
+    width: 70%;
+    margin: 5px auto;
+}

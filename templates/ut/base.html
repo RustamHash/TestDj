@@ -1,10 +1,69 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'ut/css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'ut/css/base_home.css' %}">
+    <link rel="stylesheet" href="{% static 'ut/css/menu.css' %}">
+    <link rel="stylesheet" href="{% static 'ut/css/sub_menu.css' %}">
+    <link rel="stylesheet" href="{% static 'ut/css/forms.css' %}">
+
+    <title>Обработка</title>
 </head>
 <body>
-{% block body %}{% endblock %}
+
+<div id="container_header">
+    <div id="menu_header">
+        <div class="menu-header-left">
+            <a href="/"><img src="{% static "ut/images/pro_logo.jpg" %}" alt="SLEX"></a>
+        </div>
+        <div class="menu-header-center">
+            <h2><a href="/">Лепехина</a></h2>
+        </div>
+        <div class="menu-header-right">
+            {% if user.is_superuser %}
+                <a href="/admin/">Сервис</a>
+            {% endif %}
+
+{#            {% if request.user.is_authenticated %}#}
+{#                {% if user.first_name or user.last_name %}#}
+{#                    <a href="{% url 'logout' %}">{{ user.get_full_name }}</a>#}
+{#                {% else %}#}
+{#                    <a href="{% url 'logout' %}">{{ user }}</a>#}
+{#                {% endif %}#}
+{#            {% else %}#}
+{#                <a href="{% url 'login' %}">Войти</a>#}
+{#            {% endif %}#}
+        </div>
+    </div>
+    {% block menu %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block show_result %}
+    {% endblock %}
+
+    {% if error_msg %}
+        <div id="header">
+            <div class="basic-div">
+                <div><label>
+                    <textarea>{{ error_msg }}</textarea>
+                </label></div>
+            </div>
+        </div>
+    {% endif %}
+
+    {% block modals %}
+    {% endblock %}
+
+    {% block scripts %}
+    {% endblock %}
+</div>
+
+
 </body>
 </html>

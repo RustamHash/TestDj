@@ -1,5 +1,11 @@
 {% extends 'ut/base.html' %}
 
-{% block body %}
-    {{ data }}
+{% block menu %}
+    <div id="basic_div_menu">
+        <div class="menu">
+            {% for menu in menus %}
+                <span class="button_line"><a href="{{ menu.url }}">{{ menu.name }}</a></span>
+            {% endfor %}
+        </div>
+    </div>
 {% endblock %}
