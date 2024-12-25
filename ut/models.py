@@ -68,8 +68,3 @@ class CompareDebitClient:
         df['Сальдо - Дебет'] = df['Сальдо - Дебет'].replace(np.nan, 'Отсутствует в бухгалтерии')
         df['Наш долг - Кредит'] = df['Наш долг - Кредит'].replace(np.nan, 'Отсутствует в бухгалтерии')
         return df
-
-
-class StockWms(models.Model):
-    id = models.AutoField(primary_key=True)
-    file_name = models.CharField(max_length=300)
