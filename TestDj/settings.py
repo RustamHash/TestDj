@@ -27,7 +27,7 @@ DEBUG = True
 # DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://testdj-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://testdj-production.up.railway.app/', 'https://testdj-production.up.railway.app/debit-client/']
 
 # Application definition
 
