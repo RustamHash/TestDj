@@ -4,6 +4,7 @@ import traceback
 from django.db import models
 import pandas as pd
 import numpy as np
+from TestDj import settings
 
 
 class CompareDebitClient:
@@ -11,7 +12,8 @@ class CompareDebitClient:
         self.file_ut = file_ut
         self.file_bux = file_bux
         # self.path_save_file = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-        self.path_save_file = r'static\ut\media'
+        self.path_save_file = settings.MEDIA_ROOT
+        print(self.path_save_file)
 
     def start(self):
         try:
@@ -25,6 +27,7 @@ class CompareDebitClient:
 
     def save_file(self, df):
         file_name = os.path.join(self.path_save_file, 'Результат сверки долги клиентов.xlsx')
+        print(file_name)
         df.to_excel(file_name)
         return file_name
 
