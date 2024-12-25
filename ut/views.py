@@ -1,5 +1,7 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+
 from .models import CompareDebitClient
 
 menus = [
@@ -9,6 +11,7 @@ menus = [
 ]
 
 
+@csrf_exempt
 def index(request):
     context = {
         'data': 'Тестовая страница Лепехина',
