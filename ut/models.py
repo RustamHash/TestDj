@@ -11,7 +11,7 @@ class CompareDebitClient:
         self.file_ut = file_ut
         self.file_bux = file_bux
         # self.path_save_file = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-        self.path_save_file = 'media/'
+        self.path_save_file = r'static\ut\media'
 
     def start(self):
         try:
