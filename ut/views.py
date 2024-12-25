@@ -11,7 +11,7 @@ menus = [
 ]
 
 
-@csrf_exempt
+# @csrf_exempt
 def index(request):
     context = {
         'data': 'Тестовая страница Лепехина',
