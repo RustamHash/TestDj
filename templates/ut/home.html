@@ -4,8 +4,27 @@
     <div id="basic_div_menu">
         <div class="menu">
             {% for menu in menus %}
-                <span class="button_line"><a href="{{ menu.url }}">{{ menu.name }}</a></span>
+                {% if menu.as_active %}
+                    <span class="button_line"><a href="{{ menu.url }}">{{ menu.name }}</a></span>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
+{% endblock %}
+
+{% block submenu %}
+<div class="operation_div" id="operation_div">
+    <div class="form_div">
+        <form class="operation_form" enctype="multipart/form-data" method="post"
+              action="">
+            {% csrf_token %}
+            <input class="inp_open_file_ut" alt="file_name" type="file" name="file_ut" id="file_ut"
+                   accept=".xls, .xlsx">
+            <input class="inp_open_file_bux" alt="file_name" type="file" name="file_bux" id="file_bux"
+                   accept=".xls, .xlsx">
+            <input class="btn_open_file" id="submit_operation_load" type="submit" name="load_file_btn"
+                   value="Сверить">
+        </form>
+    </div>
+</div>
 {% endblock %}
