@@ -10,7 +10,8 @@ class CompareDebitClient:
     def __init__(self, file_ut, file_bux):
         self.file_ut = file_ut
         self.file_bux = file_bux
-        self.path_save_file = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+        # self.path_save_file = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+        self.path_save_file = 'media/'
 
     def start(self):
         try:
@@ -69,3 +70,6 @@ class CompareDebitClient:
         return df
 
 
+class StockWms(models.Model):
+    id = models.AutoField(primary_key=True)
+    file_name = models.CharField(max_length=300)
