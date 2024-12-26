@@ -1,0 +1,11 @@
+2024-12-26 09:18:07,189 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 09:18:10,852 ut.views     DEBUG    start:index
+2024-12-26 09:18:10,853 ut.views     INFO     end:index
+2024-12-26 09:18:14,943 ut.views     DEBUG    start:index
+2024-12-26 09:18:14,944 ut.views     INFO     end:index
+2024-12-26 09:18:17,827 ut.views     INFO     start:debit_client
+2024-12-26 09:18:25,534 ut.views     INFO     start:debit_client
+2024-12-26 09:18:25,535 ut.views     INFO     method:post
+2024-12-26 09:18:25,536 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 09:18:25,536 ut.views     INFO     file_bux:ut.xlsx
+2024-12-26 09:18:25,898 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
