@@ -1,73 +1,151 @@
+import logging
 import os
 import traceback
-
-from django.db import models
 import pandas as pd
 import numpy as np
 from TestDj import settings
+
+logger = logging.getLogger(__name__)
 
 
 class CompareDebitClient:
     def __init__(self, file_ut, file_bux):
         self.file_ut = file_ut
         self.file_bux = file_bux
-        # self.path_save_file = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
         self.path_save_file = settings.MEDIA_ROOT
-        print(self.path_save_file)
 
     def start(self):
+        logger.info(f"Comparing start")
         try:
             df = self.sverka()
             file_name = self.save_file(df=df)
+            logger.info(f"End Comparing start")
             return file_name, False
         except Exception as e:
             str_traceback = traceback.format_exc()
-            print(str_traceback)
+            logger.error(str_traceback)
             return str_traceback, True
 
     def save_file(self, df):
+        logger.info(f'saving file {self.path_save_file}')
         file_name = os.path.join(self.path_save_file, 'Результат сверки долги клиентов.xlsx')
-        print(file_name)
         df.to_excel(file_name)
+        logger.info(f'finished saving file {self.path_save_file}')
         return file_name
 
     def parse_file_ut(self):
+        logger.info(f'start parsing file ut')
         num_col = 8
         df_ut = pd.read_excel(self.file_ut)
-        df_ut.dropna(subset=[df_ut.columns[num_col]], inplace=True, ignore_index=True)
+        df_ut.drop(df_ut.index[:8], inplace=True)
         df = pd.DataFrame(columns=['Контрагент', 'Сальдо долга', 'Наш долг'])
         df[df.columns[0]] = df_ut[df_ut.columns[0]]
         df[df.columns[2]] = df_ut[df_ut.columns[num_col - 1]]
         df[df.columns[1]] = df_ut[df_ut.columns[num_col]]
-        df[df.columns[1]] = df[df.columns[1]].replace(np.nan, 0)
-        df[df.columns[2]] = df[df.columns[2]].replace(np.nan, 0)
         df.drop(df.index[:1], inplace=True)
         df.reset_index(drop=True, inplace=True)
         df[df.columns[1]] = df[df.columns[1]].astype(float)
         df[df.columns[2]] = df[df.columns[2]].astype(float)
         df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+        logger.info(f'finished parsing file ut')
         return df
 
     def parse_file_bux(self):
+        logger.info(f'start parsing file bux')
         num_col = 5
         df_bux = pd.read_excel(self.file_bux)
-        df_bux.dropna(subset=[df_bux.columns[num_col], df_bux.columns[num_col + 1]], how='all', inplace=True,
-                      ignore_index=True)
+        df_bux.drop(df_bux.index[:8], inplace=True)
         df = pd.DataFrame(columns=['Контрагент', 'Дебет', 'Кредит'])
         df[df.columns[0]] = df_bux[df_bux.columns[0]]
-        df[df.columns[1]] = df_bux[df_bux.columns[num_col]].replace(np.nan, 0)
-        df[df.columns[2]] = df_bux[df_bux.columns[num_col + 1]].replace(np.nan, 0)
-        df[df.columns[1]] = df[df.columns[1]].replace(np.nan, 0)
-        df[df.columns[2]] = df[df.columns[2]].replace(np.nan, 0)
+        df[df.columns[1]] = df_bux[df_bux.columns[num_col]]
+        df[df.columns[2]] = df_bux[df_bux.columns[num_col + 1]]
         df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+        df.drop(df.tail(1).index, inplace=True)
+        logger.info(f'end parsing file bux')
         return df
 
     def sverka(self):
+        logger.info(f'start sverka')
         df_bux_validate = self.parse_file_bux()
         df_ut_validate = self.parse_file_ut()
-        df = pd.merge(df_ut_validate, df_bux_validate, how='left')
+
+        df = pd.merge(df_ut_validate, df_bux_validate, on=['Контрагент', 'Контрагент'], how='outer')
+        for i in range(1, 5):
+            df[df.columns[i]] = df[df.columns[i]].replace(np.nan, 'None')
+        df['Comment'] = ''
+        df.loc[(df['Сальдо долга'] == 'None') & (df['Наш долг'] == 'None'), 'Comment'] = 'Отсутствует в УТ'
+        df.loc[(df['Дебет'] == 'None') & (df['Кредит'] == 'None'), 'Comment'] = 'Отсутствует в Бух'
+        for i in range(1, 5):
+            df[df.columns[i]] = df[df.columns[i]].replace('None', 0)
         df['Сальдо - Дебет'] = df['Сальдо долга'] - df['Дебет']
         df['Наш долг - Кредит'] = df['Наш долг'] - df['Кредит']
-        df['Сальдо - Дебет'] = df['Сальдо - Дебет'].replace(np.nan, 'Отсутствует в бухгалтерии')
-        df['Наш долг - Кредит'] = df['Наш долг - Кредит'].replace(np.nan, 'Отсутствует в бухгалтерии')
+        df.index += 1
+        df['Комментарий'] = df['Comment']
+        del df['Comment']
+        logger.info(f'end sverka')
         return df
+
+
+class CompareDebitProvider(CompareDebitClient):
+
+    def save_file(self, df):
+        logger.info(f'saving file {self.path_save_file}')
+        file_name = os.path.join(self.path_save_file, 'Результат сверки долги Поставщиков.xlsx')
+        df.to_excel(file_name)
+        logger.info(f'finished saving file {self.path_save_file}')
+        return file_name
+
+    def parse_file_ut(self):
+        logger.info(f'start parsing file ut')
+        df_ut = pd.read_excel(self.file_ut)
+        num_col_saldo = 8
+        num_col_debit = 3
+        df_ut.drop(df_ut.index[:5], inplace=True)
+        df = pd.DataFrame(columns=['Контрагент', 'Сальдо долга', 'Наш долг'])
+        df[df.columns[0]] = df_ut[df_ut.columns[0]]
+        df[df.columns[2]] = df_ut[df_ut.columns[num_col_debit]]
+        df[df.columns[1]] = df_ut[df_ut.columns[num_col_saldo]]
+        df.drop(df.index[:1], inplace=True)
+        df.reset_index(drop=True, inplace=True)
+        df[df.columns[1]] = df[df.columns[1]].astype(float)
+        df[df.columns[2]] = df[df.columns[2]].astype(float)
+        df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+        logger.info(f'finished parsing file ut')
+        return df
+
+    def parse_file_bux(self):
+        logger.info(f'start parsing file bux')
+        num_col = 5
+        df_bux = pd.read_excel(self.file_bux)
+        index_names = df_bux[df_bux[df_bux.columns[0]].isin(['60.01', '60.02', '60', '<...>'])].index.to_list()
+        df_bux.drop(index_names, inplace=True)
+        df_bux.drop(df_bux.index[:7], inplace=True)
+        df = pd.DataFrame(columns=['Контрагент', 'Дебет', 'Кредит'])
+        df[df.columns[0]] = df_bux[df_bux.columns[0]]
+        df[df.columns[1]] = df_bux[df_bux.columns[num_col]]
+        df[df.columns[2]] = df_bux[df_bux.columns[num_col + 1]]
+        df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+        df.drop(df.tail(1).index, inplace=True)
+        logger.info(f'end parsing file bux')
+        return df
+
+    # def sverka(self):
+    #     logger.info(f'start sverka')
+    #     df_bux_validate = self.parse_file_bux()
+    #     df_ut_validate = self.parse_file_ut()
+    #
+    #     df = pd.merge(df_ut_validate, df_bux_validate, on=['Контрагент', 'Контрагент'], how='outer')
+    #     for i in range(1, 5):
+    #         df[df.columns[i]] = df[df.columns[i]].replace(np.nan, 'None')
+    #     df['Comment'] = ''
+    #     df.loc[(df['Сальдо долга'] == 'None') & (df['Наш долг'] == 'None'), 'Comment'] = 'Отсутствует в УТ'
+    #     df.loc[(df['Дебет'] == 'None') & (df['Кредит'] == 'None'), 'Comment'] = 'Отсутствует в Бух'
+    #     for i in range(1, 5):
+    #         df[df.columns[i]] = df[df.columns[i]].replace('None', 0)
+    #     df['Сальдо - Дебет'] = df['Сальдо долга'] - df['Дебет']
+    #     df['Наш долг - Кредит'] = df['Наш долг'] - df['Кредит']
+    #     df.index += 1
+    #     df['Комментарий'] = df['Comment']
+    #     del df['Comment']
+    #     logger.info(f'end sverka')
+    #     return df

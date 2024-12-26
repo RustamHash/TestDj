@@ -9,3 +9,896 @@
 2024-12-26 09:18:25,536 ut.views     INFO     file_ut:ut.xlsx
 2024-12-26 09:18:25,536 ut.views     INFO     file_bux:ut.xlsx
 2024-12-26 09:18:25,898 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:18:34,073 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:19:35,234 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:19:36,743 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:19:56,094 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\urls.py changed, reloading.
+2024-12-26 22:19:57,552 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:21:38,153 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:21:39,633 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:22:36,745 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:22:38,299 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:23:51,099 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:23:52,486 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:23:54,323 ut.views     DEBUG    index
+2024-12-26 22:23:55,793 ut.views     INFO     debit_client
+2024-12-26 22:23:55,793 ut.views     INFO     return file
+2024-12-26 22:24:00,127 ut.views     INFO     debit_client
+2024-12-26 22:24:00,127 ut.views     INFO     return file
+2024-12-26 22:24:01,160 ut.views     INFO     debit_client
+2024-12-26 22:24:01,160 ut.views     INFO     return file
+2024-12-26 22:24:02,338 ut.views     INFO     debit_client
+2024-12-26 22:24:02,338 ut.views     INFO     return file
+2024-12-26 22:24:32,878 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:24:34,397 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:24:46,505 ut.views     DEBUG    index
+2024-12-26 22:24:48,128 ut.views     INFO     debit_client
+2024-12-26 22:24:48,128 ut.views     INFO     return file
+2024-12-26 22:24:49,971 ut.views     INFO     debit_client
+2024-12-26 22:24:49,971 ut.views     INFO     return file
+2024-12-26 22:24:51,283 ut.views     INFO     debit_client
+2024-12-26 22:24:51,283 ut.views     INFO     return file
+2024-12-26 22:24:52,372 ut.views     INFO     debit_client
+2024-12-26 22:24:52,373 ut.views     INFO     return file
+2024-12-26 22:24:53,334 ut.views     INFO     debit_client
+2024-12-26 22:24:53,335 ut.views     INFO     return file
+2024-12-26 22:24:53,790 ut.views     INFO     debit_client
+2024-12-26 22:24:53,790 ut.views     INFO     return file
+2024-12-26 22:24:54,338 ut.views     INFO     debit_client
+2024-12-26 22:24:54,338 ut.views     INFO     return file
+2024-12-26 22:24:54,833 ut.views     INFO     debit_client
+2024-12-26 22:24:54,833 ut.views     INFO     return file
+2024-12-26 22:24:55,327 ut.views     INFO     debit_client
+2024-12-26 22:24:55,327 ut.views     INFO     return file
+2024-12-26 22:24:56,914 ut.views     INFO     debit_client
+2024-12-26 22:24:56,914 ut.views     INFO     return file
+2024-12-26 22:24:57,418 ut.views     INFO     debit_client
+2024-12-26 22:24:57,418 ut.views     INFO     return file
+2024-12-26 22:24:57,962 ut.views     INFO     debit_client
+2024-12-26 22:24:57,962 ut.views     INFO     return file
+2024-12-26 22:24:58,552 ut.views     INFO     debit_client
+2024-12-26 22:24:58,552 ut.views     INFO     return file
+2024-12-26 22:25:32,120 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\urls.py changed, reloading.
+2024-12-26 22:25:33,571 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:25:43,081 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:25:45,136 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:25:55,374 ut.views     DEBUG    index
+2024-12-26 22:25:57,491 django.request WARNING  Not Found: /debit-client/
+2024-12-26 22:26:42,365 ut.views     DEBUG    index
+2024-12-26 22:26:43,471 ut.views     DEBUG    index
+2024-12-26 22:26:44,005 ut.views     INFO     debit_client
+2024-12-26 22:26:44,006 ut.views     INFO     return file
+2024-12-26 22:26:45,208 ut.views     INFO     debit_client
+2024-12-26 22:26:45,208 ut.views     INFO     return file
+2024-12-26 22:26:46,000 ut.views     INFO     debit_client
+2024-12-26 22:26:46,000 ut.views     INFO     return file
+2024-12-26 22:26:46,843 ut.views     INFO     debit_client
+2024-12-26 22:26:46,843 ut.views     INFO     return file
+2024-12-26 22:27:25,649 ut.views     INFO     debit_client
+2024-12-26 22:27:25,650 ut.views     INFO     return file
+2024-12-26 22:27:25,760 django.request WARNING  Not Found: /favicon.ico
+2024-12-26 22:27:27,150 ut.views     DEBUG    index
+2024-12-26 22:27:28,424 ut.views     INFO     debit_client
+2024-12-26 22:27:28,424 ut.views     INFO     return file
+2024-12-26 22:27:29,102 ut.views     INFO     debit_client
+2024-12-26 22:27:29,102 ut.views     INFO     return file
+2024-12-26 22:27:30,628 ut.views     INFO     debit_client
+2024-12-26 22:27:30,628 ut.views     INFO     return file
+2024-12-26 22:27:31,954 ut.views     INFO     debit_client
+2024-12-26 22:27:31,954 ut.views     INFO     return file
+2024-12-26 22:27:44,460 ut.views     INFO     debit_client
+2024-12-26 22:27:44,460 ut.views     INFO     method:post:POST
+2024-12-26 22:27:44,533 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:27:44,533 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:27:44,567 django.request ERROR    Internal Server Error: /compare-files/
+Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py", line 48, in compare
+    file_name, error_bol = apps['operation'](file_ut=file_ut, file_bux=file_bux).start()
+                           ~~~~^^^^^^^^^^^^^
+KeyError: 'operation'
+2024-12-26 22:28:27,895 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-26 22:28:29,322 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:28:32,222 ut.views     INFO     debit_client
+2024-12-26 22:28:32,223 ut.views     INFO     return file
+2024-12-26 22:28:40,659 ut.views     INFO     debit_client
+2024-12-26 22:28:40,660 ut.views     INFO     method:post:POST
+2024-12-26 22:28:40,739 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:28:40,739 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:29:25,102 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:29:25,102 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:29:46,822 ut.views     INFO     debit_client
+2024-12-26 22:29:46,823 ut.views     INFO     method:post:POST
+2024-12-26 22:29:46,907 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:29:46,907 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:30:27,090 ut.views     DEBUG    index
+2024-12-26 22:30:29,699 ut.views     INFO     debit_client
+2024-12-26 22:30:29,705 ut.views     INFO     return file
+2024-12-26 22:30:32,170 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:30:32,170 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:30:35,853 ut.views     INFO     debit_client
+2024-12-26 22:30:35,853 ut.views     INFO     method:post:POST
+2024-12-26 22:30:35,939 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:30:35,939 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:31:22,090 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:31:22,090 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:31:27,841 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:31:29,452 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:31:52,698 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:31:54,133 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:31:54,403 ut.views     INFO     debit_client
+2024-12-26 22:31:54,403 ut.views     INFO     method:post:POST
+2024-12-26 22:31:54,477 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:31:54,478 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:32:23,464 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:32:26,453 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:32:30,404 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:32:31,817 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:33:38,297 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:33:39,755 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:33:44,505 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:33:48,641 ut.views     INFO     debit_client
+2024-12-26 22:33:48,642 ut.views     INFO     return file
+2024-12-26 22:33:50,422 ut.views     DEBUG    index
+2024-12-26 22:33:51,078 ut.views     INFO     debit_client
+2024-12-26 22:33:51,078 ut.views     INFO     return file
+2024-12-26 22:33:57,930 ut.views     INFO     debit_client
+2024-12-26 22:33:57,930 ut.views     INFO     method:post:POST
+2024-12-26 22:33:58,013 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:33:58,014 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:33:58,014 root         INFO     start sverka
+2024-12-26 22:33:58,014 root         INFO     parsing file bux
+2024-12-26 22:34:44,007 root         INFO     parsing file ut
+2024-12-26 22:34:44,167 root         INFO     end sverka
+2024-12-26 22:34:44,167 root         INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-26 22:34:44,209 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:34:44,209 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:35:16,234 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:35:17,697 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:35:46,622 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:35:48,072 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:35:52,277 ut.views     INFO     debit_client
+2024-12-26 22:35:52,277 ut.views     INFO     method:post:POST
+2024-12-26 22:35:52,351 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:35:52,351 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:35:52,351 root         INFO     Comparing start
+2024-12-26 22:35:52,351 root         INFO     start sverka
+2024-12-26 22:35:52,351 root         INFO     start parsing file bux
+2024-12-26 22:36:37,177 root         INFO     end parsing file bux
+2024-12-26 22:36:37,177 root         INFO     start parsing file ut
+2024-12-26 22:36:37,201 root         INFO     finished parsing file ut
+2024-12-26 22:36:37,257 root         INFO     end sverka
+2024-12-26 22:36:37,257 root         INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-26 22:36:37,286 root         INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-26 22:36:37,287 root         INFO     End Comparing start
+2024-12-26 22:36:37,287 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:36:37,287 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:39:33,863 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:39:35,700 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:41:32,117 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-26 22:41:33,567 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-26 22:41:35,281 ut.views     DEBUG    index
+2024-12-26 22:41:36,457 ut.views     INFO     debit_client
+2024-12-26 22:41:36,457 ut.views     INFO     return file
+2024-12-26 22:41:42,552 ut.views     INFO     debit_client
+2024-12-26 22:41:42,552 ut.views     INFO     method:post:POST
+2024-12-26 22:41:42,631 ut.views     INFO     file_ut:ut.xlsx
+2024-12-26 22:41:42,631 ut.views     INFO     file_bux:bux.xlsx
+2024-12-26 22:41:42,631 root         INFO     Comparing start
+2024-12-26 22:41:42,631 root         INFO     start sverka
+2024-12-26 22:41:42,631 root         INFO     start parsing file bux
+2024-12-26 22:42:27,710 root         INFO     end parsing file bux
+2024-12-26 22:42:27,710 root         INFO     start parsing file ut
+2024-12-26 22:42:27,734 root         INFO     finished parsing file ut
+2024-12-26 22:42:27,781 root         INFO     end sverka
+2024-12-26 22:42:27,781 root         INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-26 22:42:27,811 root         INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-26 22:42:27,811 root         INFO     End Comparing start
+2024-12-26 22:42:27,812 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-26 22:42:27,812 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:05:15,717 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:05:17,372 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:05:41,234 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:05:42,723 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:06:32,578 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:06:33,953 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:06:40,386 ut.views     DEBUG    index
+2024-12-27 00:06:41,754 ut.views     INFO     debit_client
+2024-12-27 00:06:41,754 ut.views     INFO     return file
+2024-12-27 00:06:50,287 ut.views     INFO     debit_client
+2024-12-27 00:06:50,287 ut.views     INFO     method:post:POST
+2024-12-27 00:06:50,288 ut.views     INFO     file_ut:Клиенты УТ.xlsx
+2024-12-27 00:06:50,288 ut.views     INFO     file_bux:Клиенты бух.xlsx
+2024-12-27 00:06:50,288 ut.models    INFO     Comparing start
+2024-12-27 00:06:50,288 ut.models    INFO     start sverka
+2024-12-27 00:06:50,288 ut.models    INFO     start parsing file bux
+2024-12-27 00:06:50,621 ut.models    INFO     end parsing file bux
+2024-12-27 00:06:50,621 ut.models    INFO     start parsing file ut
+2024-12-27 00:06:50,646 ut.models    INFO     finished parsing file ut
+2024-12-27 00:06:50,655 ut.models    INFO     end sverka
+2024-12-27 00:06:50,656 ut.models    INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:06:50,720 ut.models    INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:06:50,720 ut.models    INFO     End Comparing start
+2024-12-27 00:06:50,720 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:06:50,720 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:15:35,771 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-27 00:15:37,233 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:16:09,839 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:16:11,280 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:18:07,936 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:19:54,094 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:19:55,560 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:21:01,310 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:21:03,243 ut.views     DEBUG    index
+2024-12-27 00:21:04,358 ut.views     INFO     debit_client
+2024-12-27 00:21:04,358 ut.views     INFO     return file
+2024-12-27 00:21:11,126 ut.views     INFO     debit_client
+2024-12-27 00:21:11,127 ut.views     INFO     method:post:POST
+2024-12-27 00:21:11,128 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:21:11,128 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:21:11,128 ut.models    INFO     Comparing start
+2024-12-27 00:21:11,128 ut.models    INFO     start sverka
+2024-12-27 00:21:11,128 ut.models    INFO     start parsing file bux
+2024-12-27 00:21:11,430 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:21:11,430 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+__error_bol:True
+2024-12-27 00:21:11,431 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:22:28,348 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:23:14,230 ut.views     DEBUG    index
+2024-12-27 00:23:15,871 ut.views     INFO     debit_client
+2024-12-27 00:23:15,871 ut.views     INFO     return file
+2024-12-27 00:23:25,572 ut.views     INFO     debit_client
+2024-12-27 00:23:25,572 ut.views     INFO     method:post:POST
+2024-12-27 00:23:25,573 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:23:25,573 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:23:25,574 ut.models    INFO     Comparing start
+2024-12-27 00:23:25,574 ut.models    INFO     start sverka
+2024-12-27 00:23:25,574 ut.models    INFO     start parsing file bux
+2024-12-27 00:23:25,880 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:23:25,880 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+__error_bol:True
+2024-12-27 00:23:25,881 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 124, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:23:41,616 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:23:43,084 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:23:46,019 ut.views     INFO     debit_client
+2024-12-27 00:23:46,019 ut.views     INFO     return file
+2024-12-27 00:23:47,175 ut.views     INFO     debit_client
+2024-12-27 00:23:47,176 ut.views     INFO     method:post:POST
+2024-12-27 00:23:47,176 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:23:47,177 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:23:47,177 ut.models    INFO     Comparing start
+2024-12-27 00:23:47,177 ut.models    INFO     start sverka
+2024-12-27 00:23:47,177 ut.models    INFO     start parsing file bux
+2024-12-27 00:23:47,463 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:23:47,463 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+__error_bol:True
+2024-12-27 00:23:47,463 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:24:02,495 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:24:05,589 ut.views     INFO     debit_client
+2024-12-27 00:24:05,589 ut.views     INFO     return file
+2024-12-27 00:24:06,395 ut.views     DEBUG    index
+2024-12-27 00:24:07,464 ut.views     INFO     debit_client
+2024-12-27 00:24:07,464 ut.views     INFO     return file
+2024-12-27 00:24:14,071 ut.views     INFO     debit_client
+2024-12-27 00:24:14,071 ut.views     INFO     method:post:POST
+2024-12-27 00:24:14,072 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:24:14,072 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:24:14,072 ut.models    INFO     Comparing start
+2024-12-27 00:24:14,072 ut.models    INFO     start sverka
+2024-12-27 00:24:14,073 ut.models    INFO     start parsing file bux
+2024-12-27 00:24:14,372 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:24:14,372 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+__error_bol:True
+2024-12-27 00:24:14,372 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 69, in sverka
+    df_bux_validate = self.parse_file_bux()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in parse_file_bux
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 125, in <lambda>
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.strip())
+                                                          ^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+
+2024-12-27 00:24:42,347 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:24:45,225 ut.views     DEBUG    index
+2024-12-27 00:24:46,884 ut.views     INFO     debit_client
+2024-12-27 00:24:46,884 ut.views     INFO     return file
+2024-12-27 00:24:52,874 ut.views     INFO     debit_client
+2024-12-27 00:24:52,874 ut.views     INFO     method:post:POST
+2024-12-27 00:24:52,875 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:24:52,875 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:24:52,875 ut.models    INFO     Comparing start
+2024-12-27 00:24:52,876 ut.models    INFO     start sverka
+2024-12-27 00:24:52,876 ut.models    INFO     start parsing file bux
+2024-12-27 00:24:53,177 ut.models    INFO     end parsing file bux
+2024-12-27 00:24:53,177 ut.models    INFO     start parsing file ut
+2024-12-27 00:24:53,198 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+
+2024-12-27 00:24:53,198 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+__error_bol:True
+2024-12-27 00:24:53,203 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+
+2024-12-27 00:26:04,010 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:26:05,813 ut.views     DEBUG    index
+2024-12-27 00:26:06,777 ut.views     INFO     debit_client
+2024-12-27 00:26:06,777 ut.views     INFO     return file
+2024-12-27 00:26:14,304 ut.views     INFO     debit_client
+2024-12-27 00:26:14,304 ut.views     INFO     method:post:POST
+2024-12-27 00:26:14,305 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:26:14,306 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:26:14,306 ut.models    INFO     Comparing start
+2024-12-27 00:26:14,306 ut.models    INFO     start sverka
+2024-12-27 00:26:14,306 ut.models    INFO     start parsing file bux
+2024-12-27 00:26:14,608 ut.models    INFO     end parsing file bux
+2024-12-27 00:26:14,608 ut.models    INFO     start parsing file ut
+2024-12-27 00:26:14,627 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+
+2024-12-27 00:26:14,627 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+__error_bol:True
+2024-12-27 00:26:14,633 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 20, in start
+    df = self.sverka()
+         ^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 70, in sverka
+    df_ut_validate = self.parse_file_ut()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 109, in parse_file_ut
+    df[df.columns[1]] = df[df.columns[1]].astype(float)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Сальдо долга'
+
+2024-12-27 00:37:08,156 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:37:09,596 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:37:13,162 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:42:10,262 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:42:11,758 ut.views     DEBUG    index
+2024-12-27 00:42:12,648 ut.views     INFO     debit_client
+2024-12-27 00:42:12,648 ut.views     INFO     return file
+2024-12-27 00:42:19,003 ut.views     INFO     debit_client
+2024-12-27 00:42:19,003 ut.views     INFO     method:post:POST
+2024-12-27 00:42:19,004 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:42:19,004 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:42:19,004 ut.models    INFO     Comparing start
+2024-12-27 00:42:19,004 ut.models    INFO     start sverka
+2024-12-27 00:42:19,004 ut.models    INFO     start parsing file bux
+2024-12-27 00:42:19,290 ut.models    INFO     end parsing file bux
+2024-12-27 00:42:19,290 ut.models    INFO     start parsing file ut
+2024-12-27 00:42:19,303 ut.models    INFO     finished parsing file ut
+2024-12-27 00:42:19,313 ut.models    INFO     end sverka
+2024-12-27 00:42:19,313 ut.models    INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:42:19,352 ut.models    INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:42:19,352 ut.models    INFO     End Comparing start
+2024-12-27 00:42:19,352 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
+2024-12-27 00:42:19,352 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
+2024-12-27 00:42:54,258 ut.views     DEBUG    index
