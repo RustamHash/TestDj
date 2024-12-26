@@ -2,7 +2,7 @@ from django.http import HttpResponse, FileResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
-from .models import CompareDebitClient, CompareDebitProvider
+from .models import CompareDebitClient, CompareDebitProvider, CompareStock
 import logging
 
 logger = logging.getLogger(__name__)
@@ -10,13 +10,13 @@ logger = logging.getLogger(__name__)
 menus = [
     {'id': 1, 'name': 'Сверить долги клиентов', 'url': 'debit-client', 'as_active': True},
     {'id': 2, 'name': 'Сверить долги поставщиков', 'url': 'debit-provider', 'as_active': True},
-    {'id': 3, 'name': 'Сверить Остатки', 'url': 'compare-stock', 'as_active': True},
+    {'id': 3, 'name': 'Сверить Остатки', 'url': 'compare-stock', 'as_active': False},
 ]
 
 apps = {
     'debit-client': CompareDebitClient,
     'debit-provider': CompareDebitProvider,
-    'compare-stock': '',
+    'compare-stock': CompareStock,
 }
 
 
@@ -33,10 +33,11 @@ def index(request):
 @csrf_exempt
 def compare(request):
     operation = request.GET.get('operation')
-    logger.info('debit_client')
+    logger.info(f'compare: {operation}')
     context = {
         'form_active': True,
         'menus': menus,
+        'operation': operation,
     }
     if request.method == 'POST':
         logger.info(f'method:post:{request.method}')

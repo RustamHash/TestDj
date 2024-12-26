@@ -1,10 +1,25 @@
+body {
+    background-color: #9a48ea;
+    /*background-color: #87CEEB;*/
+}
+
+#img_container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#img_container img {
+    width: 300px;
+    height: auto;
+}
+
 #container_header {
     font-style: normal;
     border: 1px solid RGB(200, 200, 200);
     border-radius: 4px;
-    margin: 5px auto;
+    margin: 50px auto;
     width: 90%;
-    /*padding: 10px;*/
 }
 
 #container_header img {

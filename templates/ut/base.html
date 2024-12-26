@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{% static 'ut/css/menu.css' %}">
     <link rel="stylesheet" href="{% static 'ut/css/sub_menu.css' %}">
     <link rel="stylesheet" href="{% static 'ut/css/forms.css' %}">
-
+    <link rel="stylesheet" href="{% static 'ut/css/new_years.css' %}">
+    <link href="https://uguide.su/new_year/1/snow.min.css" rel="stylesheet">
     <title>Обработка</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
 <div id="container_header">
     <div id="menu_header">
         <div class="menu-header-left">
-            <a href="/"><img src="{% static "ut/images/pro_logo.jpg" %}" alt="SLEX"></a>
+            {#            <a href="/"><img src="{% static "ut/images/pro_logo.jpg" %}" alt="SLEX"></a>#}
         </div>
         <div class="menu-header-center">
             <h2><a href="/">Лепехина</a></h2>
@@ -27,15 +28,15 @@
                 <a href="/admin/">Сервис</a>
             {% endif %}
 
-{#            {% if request.user.is_authenticated %}#}
-{#                {% if user.first_name or user.last_name %}#}
-{#                    <a href="{% url 'logout' %}">{{ user.get_full_name }}</a>#}
-{#                {% else %}#}
-{#                    <a href="{% url 'logout' %}">{{ user }}</a>#}
-{#                {% endif %}#}
-{#            {% else %}#}
-{#                <a href="{% url 'login' %}">Войти</a>#}
-{#            {% endif %}#}
+            {#            {% if request.user.is_authenticated %}#}
+            {#                {% if user.first_name or user.last_name %}#}
+            {#                    <a href="{% url 'logout' %}">{{ user.get_full_name }}</a>#}
+            {#                {% else %}#}
+            {#                    <a href="{% url 'logout' %}">{{ user }}</a>#}
+            {#                {% endif %}#}
+            {#            {% else %}#}
+            {#                <a href="{% url 'login' %}">Войти</a>#}
+            {#            {% endif %}#}
         </div>
     </div>
     {% block menu %}
@@ -60,13 +61,93 @@
         </div>
     {% endif %}
 
-    {% block modals %}
-    {% endblock %}
+
 
     {% block scripts %}
     {% endblock %}
 </div>
+{% block logo %}
+    <div id="img_container">
+        <img src="{% static "ut/images/pro_logo.jpg" %}" alt="ПроИнгридиенты">
+    </div>
+{% endblock %}
+{% block NewYear %}
+    <div id="gir_top"></div>
+    <div id="nums_1_top"></div>
+    {#    <div id="gir"></div>#}
+    <div id="nums_1"></div>
 
+    <script>
+        function gir() {
+            nums = document.getElementById('nums_1').innerHTML
+            if (nums == 1) {
+                document.getElementById('gir').className = 'gir_1';
+                document.getElementById('nums_1').innerHTML = '2'
+            }
+            if (nums == 2) {
+                document.getElementById('gir').className = 'gir_2';
+                document.getElementById('nums_1').innerHTML = '3'
+            }
+            if (nums == 3) {
+                document.getElementById('gir').className = 'gir_3';
+                document.getElementById('nums_1').innerHTML = '1'
+            }
+        }
+
+        function gir_top() {
+            nums = document.getElementById('nums_1_top').innerHTML
+            if (nums == 1) {
+                document.getElementById('gir_top').className = 'gir_1_top';
+                document.getElementById('nums_1_top').innerHTML = '2'
+            }
+            if (nums == 2) {
+                document.getElementById('gir_top').className = 'gir_2_top';
+                document.getElementById('nums_1_top').innerHTML = '3'
+            }
+            if (nums == 3) {
+                document.getElementById('gir_top').className = 'gir_3_top';
+                document.getElementById('nums_1_top').innerHTML = '1'
+            }
+        }
+
+        setInterval(function () {
+            gir()
+        }, 500)</script>
+{% endblock %}
+
+{% block new_year_1 %}
+    <script src="https://uguide.su/new_year/1/Snow.min.js"></script>
+    <script>
+        new Snow();
+    </script>
+    <script>
+        new Snow({
+            iconColor: "#a6e7ff", //цвет снежинок
+            iconSize: 20, //размер снежинок
+            icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="#000000">
+                <path d="M 6 6 L 6 26 L 26 26 L 26 6 L 6 6 z"/>
+            </svg>,
+            showSnowBalls: true,
+            showSnowBallsIsMobile:
+                true, //отдельная опция сугробов на мобилках
+            showSnowflakes:
+                true, //включение или отключение снегопада
+            countSnowflake:
+                100, //количество снежинок на экране, не более 100
+            snowBallsLength:
+                10, // число сугробов, не более 10
+            snowBallIterations:
+                40, // итерации роста сугроба, от 10 до 40
+            snowBallupNum:
+                1, // пиксели роста в течение одной итерации, не более 3
+            snowBallIterationsInterval:
+                2000, // скорость роста сугроба в миллисекундах, то есть 1000 миллисекунд = 1 секунда
+            clearSnowBalls:
+                10000, // время, через которое машинка убирает сугробы, здесь это 20 секунд
+        })
+        ;
+    </script>
+{% endblock %}
 
 </body>
 </html>

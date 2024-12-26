@@ -1117,3 +1117,338 @@ OSError: Cannot save file into a non-existent directory: '\media'
 2024-12-27 01:03:07,528 ut.models    INFO     End Comparing start
 2024-12-27 01:03:07,528 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
 2024-12-27 01:03:07,528 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 01:06:22,601 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-27 01:06:22,953 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-27 01:06:24,068 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:06:24,435 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:07:39,729 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:07:41,292 ut.views     DEBUG    index
+2024-12-27 01:07:42,258 ut.views     INFO     compare: debit-client
+2024-12-27 01:07:42,258 ut.views     INFO     return file
+2024-12-27 01:07:43,443 ut.views     INFO     compare: debit-provider
+2024-12-27 01:07:43,443 ut.views     INFO     return file
+2024-12-27 01:07:44,618 ut.views     INFO     compare: compare-stock
+2024-12-27 01:07:44,618 ut.views     INFO     return file
+2024-12-27 01:07:47,143 ut.views     INFO     compare: debit-provider
+2024-12-27 01:07:47,144 ut.views     INFO     return file
+2024-12-27 01:07:48,116 ut.views     INFO     compare: debit-client
+2024-12-27 01:07:48,116 ut.views     INFO     return file
+2024-12-27 01:07:49,065 ut.views     INFO     compare: compare-stock
+2024-12-27 01:07:49,065 ut.views     INFO     return file
+2024-12-27 01:09:12,165 ut.views     INFO     compare: compare-stock
+2024-12-27 01:09:12,166 ut.views     INFO     return file
+2024-12-27 01:09:12,258 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:12:10,593 ut.views     INFO     compare: compare-stock
+2024-12-27 01:12:10,594 ut.views     INFO     return file
+2024-12-27 01:12:10,632 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:13:50,645 ut.views     INFO     compare: compare-stock
+2024-12-27 01:13:50,645 ut.views     INFO     return file
+2024-12-27 01:13:50,684 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:14:05,021 ut.views     INFO     compare: compare-stock
+2024-12-27 01:14:05,021 ut.views     INFO     return file
+2024-12-27 01:14:05,069 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:14:25,004 ut.views     INFO     compare: compare-stock
+2024-12-27 01:14:25,004 ut.views     INFO     return file
+2024-12-27 01:14:25,052 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:14:43,028 ut.views     INFO     compare: compare-stock
+2024-12-27 01:14:43,028 ut.views     INFO     return file
+2024-12-27 01:14:43,080 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:14:52,268 ut.views     INFO     compare: compare-stock
+2024-12-27 01:14:52,268 ut.views     INFO     return file
+2024-12-27 01:14:52,311 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:14:54,278 ut.views     DEBUG    index
+2024-12-27 01:14:56,707 ut.views     INFO     compare: debit-client
+2024-12-27 01:14:56,707 ut.views     INFO     return file
+2024-12-27 01:14:58,035 ut.views     DEBUG    index
+2024-12-27 01:14:59,665 ut.views     INFO     compare: debit-client
+2024-12-27 01:14:59,665 ut.views     INFO     return file
+2024-12-27 01:15:01,054 ut.views     DEBUG    index
+2024-12-27 01:15:02,604 ut.views     INFO     compare: debit-client
+2024-12-27 01:15:02,604 ut.views     INFO     return file
+2024-12-27 01:15:59,651 ut.views     INFO     compare: debit-client
+2024-12-27 01:15:59,652 ut.views     INFO     return file
+2024-12-27 01:15:59,698 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:16:01,945 ut.views     INFO     compare: debit-client
+2024-12-27 01:16:01,945 ut.views     INFO     return file
+2024-12-27 01:16:02,004 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:16:20,798 ut.views     INFO     compare: debit-client
+2024-12-27 01:16:20,799 ut.views     INFO     return file
+2024-12-27 01:16:20,853 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:16:37,024 ut.views     INFO     compare: debit-client
+2024-12-27 01:16:37,024 ut.views     INFO     return file
+2024-12-27 01:16:37,067 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:16:53,583 ut.views     INFO     compare: debit-client
+2024-12-27 01:16:53,583 ut.views     INFO     return file
+2024-12-27 01:16:53,632 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:17:07,056 ut.views     INFO     compare: debit-client
+2024-12-27 01:17:07,056 ut.views     INFO     return file
+2024-12-27 01:17:07,097 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:17:48,355 ut.views     INFO     compare: debit-client
+2024-12-27 01:17:48,356 ut.views     INFO     return file
+2024-12-27 01:17:48,405 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:17:50,975 ut.views     INFO     compare: debit-provider
+2024-12-27 01:17:50,975 ut.views     INFO     return file
+2024-12-27 01:17:51,760 ut.views     INFO     compare: compare-stock
+2024-12-27 01:17:51,760 ut.views     INFO     return file
+2024-12-27 01:17:52,544 ut.views     INFO     compare: debit-client
+2024-12-27 01:17:52,544 ut.views     INFO     return file
+2024-12-27 01:18:08,888 ut.views     INFO     compare: debit-client
+2024-12-27 01:18:08,888 ut.views     INFO     return file
+2024-12-27 01:18:08,941 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:18:12,849 ut.views     DEBUG    index
+2024-12-27 01:18:14,747 ut.views     INFO     compare: debit-client
+2024-12-27 01:18:14,747 ut.views     INFO     return file
+2024-12-27 01:18:16,155 ut.views     INFO     compare: compare-stock
+2024-12-27 01:18:16,155 ut.views     INFO     return file
+2024-12-27 01:18:16,954 ut.views     INFO     compare: debit-provider
+2024-12-27 01:18:16,954 ut.views     INFO     return file
+2024-12-27 01:18:47,152 ut.views     INFO     compare: debit-provider
+2024-12-27 01:18:47,153 ut.views     INFO     return file
+2024-12-27 01:18:47,196 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:19:05,072 ut.views     INFO     compare: debit-provider
+2024-12-27 01:19:05,072 ut.views     INFO     return file
+2024-12-27 01:19:05,127 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:19:30,783 ut.views     INFO     compare: debit-provider
+2024-12-27 01:19:30,783 ut.views     INFO     return file
+2024-12-27 01:19:30,818 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:19:45,752 ut.views     INFO     compare: debit-provider
+2024-12-27 01:19:45,752 ut.views     INFO     return file
+2024-12-27 01:19:45,789 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:01,793 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:01,793 ut.views     INFO     return file
+2024-12-27 01:20:01,856 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:09,759 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:09,759 ut.views     INFO     return file
+2024-12-27 01:20:09,816 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:17,306 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:17,306 ut.views     INFO     return file
+2024-12-27 01:20:17,346 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:30,828 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:30,828 ut.views     INFO     return file
+2024-12-27 01:20:30,916 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:36,973 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:36,973 ut.views     INFO     return file
+2024-12-27 01:20:37,022 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:20:46,464 ut.views     INFO     compare: debit-provider
+2024-12-27 01:20:46,465 ut.views     INFO     return file
+2024-12-27 01:20:46,526 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:21:47,834 ut.views     INFO     compare: debit-provider
+2024-12-27 01:21:47,834 ut.views     INFO     return file
+2024-12-27 01:21:47,874 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:23:21,562 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:21,562 ut.views     INFO     return file
+2024-12-27 01:23:21,624 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:23:25,977 ut.views     INFO     compare: debit-client
+2024-12-27 01:23:25,977 ut.views     INFO     return file
+2024-12-27 01:23:26,922 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:26,922 ut.views     INFO     return file
+2024-12-27 01:23:27,518 ut.views     INFO     compare: compare-stock
+2024-12-27 01:23:27,518 ut.views     INFO     return file
+2024-12-27 01:23:28,668 ut.views     DEBUG    index
+2024-12-27 01:23:29,961 ut.views     INFO     compare: debit-client
+2024-12-27 01:23:29,961 ut.views     INFO     return file
+2024-12-27 01:23:30,520 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:30,520 ut.views     INFO     return file
+2024-12-27 01:23:31,150 ut.views     INFO     compare: compare-stock
+2024-12-27 01:23:31,150 ut.views     INFO     return file
+2024-12-27 01:23:48,170 ut.views     DEBUG    index
+2024-12-27 01:23:50,949 ut.views     INFO     compare: debit-client
+2024-12-27 01:23:50,950 ut.views     INFO     return file
+2024-12-27 01:23:51,671 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:51,671 ut.views     INFO     return file
+2024-12-27 01:23:52,392 ut.views     INFO     compare: compare-stock
+2024-12-27 01:23:52,392 ut.views     INFO     return file
+2024-12-27 01:23:53,228 ut.views     INFO     compare: debit-client
+2024-12-27 01:23:53,228 ut.views     INFO     return file
+2024-12-27 01:23:53,718 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:53,718 ut.views     INFO     return file
+2024-12-27 01:23:54,283 ut.views     INFO     compare: compare-stock
+2024-12-27 01:23:54,284 ut.views     INFO     return file
+2024-12-27 01:23:55,071 ut.views     INFO     compare: debit-client
+2024-12-27 01:23:55,071 ut.views     INFO     return file
+2024-12-27 01:23:55,543 ut.views     INFO     compare: debit-provider
+2024-12-27 01:23:55,543 ut.views     INFO     return file
+2024-12-27 01:23:56,053 ut.views     INFO     compare: compare-stock
+2024-12-27 01:23:56,053 ut.views     INFO     return file
+2024-12-27 01:23:56,842 ut.views     DEBUG    index
+2024-12-27 01:24:53,821 ut.views     DEBUG    index
+2024-12-27 01:24:53,855 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:24:57,856 ut.views     INFO     compare: debit-client
+2024-12-27 01:24:57,856 ut.views     INFO     return file
+2024-12-27 01:24:58,750 ut.views     INFO     compare: debit-provider
+2024-12-27 01:24:58,751 ut.views     INFO     return file
+2024-12-27 01:24:59,378 ut.views     INFO     compare: compare-stock
+2024-12-27 01:24:59,378 ut.views     INFO     return file
+2024-12-27 01:37:28,626 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:37:30,130 ut.views     DEBUG    index
+2024-12-27 01:37:32,537 ut.views     DEBUG    index
+2024-12-27 01:38:20,513 ut.views     DEBUG    index
+2024-12-27 01:38:20,673 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:38:23,082 ut.views     DEBUG    index
+2024-12-27 01:38:23,134 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:38:43,454 ut.views     DEBUG    index
+2024-12-27 01:38:43,821 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:38:47,236 ut.views     DEBUG    index
+2024-12-27 01:39:10,075 ut.views     DEBUG    index
+2024-12-27 01:39:10,181 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:39:14,543 ut.views     INFO     compare: debit-client
+2024-12-27 01:39:14,543 ut.views     INFO     return file
+2024-12-27 01:39:15,483 ut.views     INFO     compare: debit-provider
+2024-12-27 01:39:15,483 ut.views     INFO     return file
+2024-12-27 01:39:16,148 ut.views     INFO     compare: compare-stock
+2024-12-27 01:39:16,149 ut.views     INFO     return file
+2024-12-27 01:39:17,109 ut.views     INFO     compare: debit-client
+2024-12-27 01:39:17,109 ut.views     INFO     return file
+2024-12-27 01:39:17,873 ut.views     DEBUG    index
+2024-12-27 01:40:34,852 ut.views     DEBUG    index
+2024-12-27 01:40:35,218 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:40:53,384 ut.views     DEBUG    index
+2024-12-27 01:40:53,503 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:41:10,993 ut.views     DEBUG    index
+2024-12-27 01:41:11,100 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:44:52,631 ut.views     DEBUG    index
+2024-12-27 01:44:53,009 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:45:21,940 ut.views     DEBUG    index
+2024-12-27 01:45:22,248 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:54:47,086 ut.views     DEBUG    index
+2024-12-27 01:54:47,500 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:54:54,028 ut.views     INFO     compare: debit-client
+2024-12-27 01:54:54,028 ut.views     INFO     return file
+2024-12-27 01:54:54,928 ut.views     INFO     compare: debit-provider
+2024-12-27 01:54:54,929 ut.views     INFO     return file
+2024-12-27 01:56:47,049 ut.views     INFO     compare: debit-provider
+2024-12-27 01:56:47,049 ut.views     INFO     return file
+2024-12-27 01:56:47,378 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:56:56,576 ut.views     DEBUG    index
+2024-12-27 01:56:59,645 ut.views     INFO     compare: debit-client
+2024-12-27 01:56:59,645 ut.views     INFO     return file
+2024-12-27 01:57:00,686 ut.views     DEBUG    index
+2024-12-27 01:57:05,733 ut.views     DEBUG    index
+2024-12-27 01:57:15,982 ut.views     DEBUG    index
+2024-12-27 01:57:16,301 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:57:23,766 ut.views     DEBUG    index
+2024-12-27 01:57:23,962 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:57:31,500 ut.views     DEBUG    index
+2024-12-27 01:57:31,693 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:57:46,287 ut.views     DEBUG    index
+2024-12-27 01:57:46,488 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:57:55,086 ut.views     DEBUG    index
+2024-12-27 01:57:55,279 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:58:49,127 ut.views     DEBUG    index
+2024-12-27 01:58:49,456 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:59:24,990 ut.views     DEBUG    index
+2024-12-27 01:59:25,313 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 01:59:53,407 ut.views     DEBUG    index
+2024-12-27 01:59:53,952 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:00:08,937 ut.views     DEBUG    index
+2024-12-27 02:00:09,328 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:00:22,176 ut.views     DEBUG    index
+2024-12-27 02:00:22,359 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:01:10,305 ut.views     DEBUG    index
+2024-12-27 02:01:10,627 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:01:24,920 ut.views     DEBUG    index
+2024-12-27 02:01:25,121 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:01:30,232 ut.views     DEBUG    index
+2024-12-27 02:01:34,852 ut.views     INFO     compare: debit-client
+2024-12-27 02:01:34,852 ut.views     INFO     return file
+2024-12-27 02:01:35,663 ut.views     INFO     compare: debit-provider
+2024-12-27 02:01:35,663 ut.views     INFO     return file
+2024-12-27 02:01:36,485 ut.views     INFO     compare: compare-stock
+2024-12-27 02:01:36,485 ut.views     INFO     return file
+2024-12-27 02:02:07,131 ut.views     INFO     compare: None
+2024-12-27 02:02:07,131 ut.views     INFO     return file
+2024-12-27 02:04:11,227 ut.views     INFO     compare: compare-stock
+2024-12-27 02:04:11,227 ut.views     INFO     return file
+2024-12-27 02:04:11,690 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:06:44,587 ut.views     INFO     compare: compare-stock
+2024-12-27 02:06:44,587 ut.views     INFO     return file
+2024-12-27 02:06:44,954 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:07:01,830 ut.views     INFO     compare: compare-stock
+2024-12-27 02:07:01,830 ut.views     INFO     return file
+2024-12-27 02:07:02,147 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:07:13,180 ut.views     INFO     compare: compare-stock
+2024-12-27 02:07:13,180 ut.views     INFO     return file
+2024-12-27 02:07:13,394 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:07:38,790 ut.views     INFO     compare: compare-stock
+2024-12-27 02:07:38,791 ut.views     INFO     return file
+2024-12-27 02:07:39,146 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:08:03,544 ut.views     INFO     compare: compare-stock
+2024-12-27 02:08:03,544 ut.views     INFO     return file
+2024-12-27 02:08:03,821 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:09:31,888 ut.views     INFO     compare: compare-stock
+2024-12-27 02:09:31,888 ut.views     INFO     return file
+2024-12-27 02:09:32,218 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:09:54,787 ut.views     INFO     compare: compare-stock
+2024-12-27 02:09:54,787 ut.views     INFO     return file
+2024-12-27 02:09:55,142 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:14:31,751 ut.views     INFO     compare: compare-stock
+2024-12-27 02:14:31,751 ut.views     INFO     return file
+2024-12-27 02:14:32,270 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:19:39,254 ut.views     INFO     compare: compare-stock
+2024-12-27 02:19:39,254 ut.views     INFO     return file
+2024-12-27 02:19:39,660 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:20:07,970 ut.views     INFO     compare: compare-stock
+2024-12-27 02:20:07,970 ut.views     INFO     return file
+2024-12-27 02:20:08,280 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:20:46,042 ut.views     INFO     compare: compare-stock
+2024-12-27 02:20:46,043 ut.views     INFO     return file
+2024-12-27 02:20:46,365 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:20:49,662 ut.views     INFO     compare: compare-stock
+2024-12-27 02:20:49,663 ut.views     INFO     return file
+2024-12-27 02:20:49,827 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:21:10,334 ut.views     INFO     compare: compare-stock
+2024-12-27 02:21:10,335 ut.views     INFO     return file
+2024-12-27 02:21:10,647 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:21:19,467 ut.views     INFO     compare: compare-stock
+2024-12-27 02:21:19,467 ut.views     INFO     return file
+2024-12-27 02:21:19,631 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:21:21,125 ut.views     INFO     compare: compare-stock
+2024-12-27 02:21:21,125 ut.views     INFO     method:post:POST
+2024-12-27 02:21:21,166 django.request ERROR    Internal Server Error: /compare-files/
+Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'file_ut'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py", line 44, in compare
+    file_ut = request.FILES['file_ut']
+              ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'file_ut'
+2024-12-27 02:21:48,435 ut.views     INFO     compare: compare-stock
+2024-12-27 02:21:48,435 ut.views     INFO     return file
+2024-12-27 02:21:48,732 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:25:15,081 ut.views     INFO     compare: compare-stock
+2024-12-27 02:25:15,081 ut.views     INFO     return file
+2024-12-27 02:25:15,372 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:26:27,329 ut.views     INFO     compare: compare-stock
+2024-12-27 02:26:27,329 ut.views     INFO     return file
+2024-12-27 02:26:27,657 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:30:52,375 ut.views     INFO     compare: compare-stock
+2024-12-27 02:30:52,375 ut.views     INFO     return file
+2024-12-27 02:30:52,834 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:32:28,971 ut.views     INFO     compare: compare-stock
+2024-12-27 02:32:28,971 ut.views     INFO     return file
+2024-12-27 02:32:29,597 django.request WARNING  Not Found: /favicon.ico
+2024-12-27 02:33:37,869 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 02:33:38,110 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 02:33:39,470 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 02:33:39,592 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 02:34:24,747 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-27 02:34:24,816 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-27 02:34:26,236 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 02:34:26,295 django.utils.autoreload INFO     Watching for file changes with StatReloader

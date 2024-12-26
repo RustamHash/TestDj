@@ -15,7 +15,11 @@
     min-width: 350px;
 }
 
+
+/*---------------------------*/
+
 .inp_open_file_ut {
+    color: white;
     border: 2px solid black;
     padding: 10px;
     min-width: 350px;
@@ -53,7 +57,16 @@
 
 /*-----------------------------*/
 
+
+/*.inp_open_file_bux {*/
+/*    !*color: white;*!*/
+/*    !*cursor: pointer;*!*/
+/*}*/
+
+/*-----------------------------*/
+
 .inp_open_file_bux {
+    color: white;
     border: 2px solid black;
     padding: 10px;
     min-width: 350px;
@@ -68,7 +81,6 @@
     border-radius: 3px 8px 3px 8px;
     color: red;
     content: attr(value) 'Выбрать файл Бухгалтерия';
-    /*margin: 25px;*/
     padding: 5px;
 }
 
@@ -86,4 +98,9 @@
 
 .inp_open_file_bux {
     padding: 10px;
+}
+
+/*----------------------------*/
+.btn_open_file {
+
 }

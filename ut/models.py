@@ -135,7 +135,7 @@ class CompareDebitProvider(CompareDebitClient):
 class CompareStock(CompareDebitClient):
     def save_file(self, df):
         logger.info(f'provider -- saving file {self.path_save_file} ')
-        file_name = os.path.join(self.path_save_file, 'Результат сверки долги Поставщиков.xlsx')
+        file_name = os.path.join(self.path_save_file, 'Результат сверки Остатков.xlsx')
         df.to_excel(file_name)
         logger.info(f'provider -- finished saving file {self.path_save_file}')
         return file_name

@@ -5,7 +5,13 @@
         <div class="menu">
             {% for menu in menus %}
                 {% if menu.as_active %}
-                    <span class="button_line"><a href="{% url 'compare_files' %}?operation={{ menu.url }}">{{ menu.name }}</a></span>
+                    {% if operation == menu.url %}
+                        <span class="selected"><a
+                                href="{% url 'compare_files' %}?operation={{ menu.url }}">{{ menu.name }}</a></span>
+                    {% else %}
+                        <span class="button_line"><a
+                                href="{% url 'compare_files' %}?operation={{ menu.url }}">{{ menu.name }}</a></span>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         </div>
