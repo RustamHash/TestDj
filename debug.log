@@ -902,3 +902,218 @@ ValueError: could not convert string to float: 'Сальдо долга'
 2024-12-27 00:42:19,352 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
 2024-12-27 00:42:19,352 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
 2024-12-27 00:42:54,258 ut.views     DEBUG    index
+2024-12-27 00:45:22,447 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:45:23,881 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:46:06,552 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:46:08,036 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:46:08,923 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:46:10,557 ut.views     DEBUG    index
+2024-12-27 00:46:12,836 ut.views     INFO     debit_client
+2024-12-27 00:46:12,837 ut.views     INFO     return file
+2024-12-27 00:46:16,479 ut.views     INFO     debit_client
+2024-12-27 00:46:16,479 ut.views     INFO     method:post:POST
+2024-12-27 00:46:16,480 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:46:16,518 django.request ERROR    Internal Server Error: /compare-files/
+Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'file_bux'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py", line 45, in compare
+    file_bux = request.FILES['file_bux']
+               ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'file_bux'
+2024-12-27 00:46:23,131 ut.views     INFO     debit_client
+2024-12-27 00:46:23,131 ut.views     INFO     method:post:POST
+2024-12-27 00:46:23,132 ut.views     INFO     file_ut:поставщики УТ.xlsx
+2024-12-27 00:46:23,132 ut.views     INFO     file_bux:Поставщики бух.xlsx
+2024-12-27 00:46:23,132 ut.models    INFO     Comparing start
+2024-12-27 00:46:23,132 ut.models    INFO     start sverka
+2024-12-27 00:46:23,132 ut.models    INFO     provider -- start parsing file bux
+2024-12-27 00:46:23,469 ut.models    INFO     provider -- end parsing file bux
+2024-12-27 00:46:23,469 ut.models    INFO     provider -- start parsing file ut
+2024-12-27 00:46:23,480 ut.models    INFO     provider -- finished parsing file ut
+2024-12-27 00:46:23,489 ut.models    INFO     end sverka
+2024-12-27 00:46:23,489 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-27 00:46:23,530 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:46:23,530 ut.models    INFO     End Comparing start
+2024-12-27 00:46:23,530 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
+2024-12-27 00:46:23,530 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги Поставщиков.xlsx__error_bol:False
+2024-12-27 00:47:53,357 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:47:53,418 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:47:54,980 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:47:55,090 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:50:40,816 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:50:40,831 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:50:42,311 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:50:44,961 ut.views     DEBUG    index
+2024-12-27 00:50:46,462 ut.views     INFO     debit_client
+2024-12-27 00:50:46,463 ut.views     INFO     return file
+2024-12-27 00:50:56,264 ut.views     INFO     debit_client
+2024-12-27 00:50:56,264 ut.views     INFO     method:post:POST
+2024-12-27 00:50:56,265 ut.views     INFO     file_ut:Клиенты УТ.xlsx
+2024-12-27 00:50:56,265 ut.views     INFO     file_bux:Клиенты бух.xlsx
+2024-12-27 00:50:56,265 ut.models    INFO     Comparing start
+2024-12-27 00:50:56,265 ut.models    INFO     start sverka
+2024-12-27 00:50:56,265 ut.models    INFO     start parsing file bux
+2024-12-27 00:50:56,605 ut.models    INFO     end parsing file bux
+2024-12-27 00:50:56,605 ut.models    INFO     start parsing file ut
+2024-12-27 00:50:56,629 ut.models    INFO     finished parsing file ut
+2024-12-27 00:50:56,638 ut.models    INFO     end sverka
+2024-12-27 00:50:56,638 ut.models    INFO     saving file /media/
+2024-12-27 00:50:56,651 ut.models    ERROR    Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 21, in start
+    file_name = self.save_file(df=df)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 32, in save_file
+    df.to_excel(file_name)
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '\media'
+
+2024-12-27 00:50:56,651 ut.views     INFO     file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 21, in start
+    file_name = self.save_file(df=df)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 32, in save_file
+    df.to_excel(file_name)
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '\media'
+__error_bol:True
+2024-12-27 00:50:56,652 ut.views     ERROR    error_bol:True, file_name:Traceback (most recent call last):
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 21, in start
+    file_name = self.save_file(df=df)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py", line 32, in save_file
+    df.to_excel(file_name)
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\rhashhanok\PycharmProjects\TestDj\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '\media'
+
+2024-12-27 00:51:10,956 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:51:11,330 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:51:12,651 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:51:12,822 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:51:16,079 ut.views     INFO     debit_client
+2024-12-27 00:51:16,079 ut.views     INFO     return file
+2024-12-27 00:51:17,025 ut.views     INFO     debit_client
+2024-12-27 00:51:17,025 ut.views     INFO     method:post:POST
+2024-12-27 00:51:17,026 ut.views     INFO     file_ut:Клиенты УТ.xlsx
+2024-12-27 00:51:17,027 ut.views     INFO     file_bux:Клиенты бух.xlsx
+2024-12-27 00:51:17,027 ut.models    INFO     Comparing start
+2024-12-27 00:51:17,027 ut.models    INFO     start sverka
+2024-12-27 00:51:17,027 ut.models    INFO     start parsing file bux
+2024-12-27 00:51:17,345 ut.models    INFO     end parsing file bux
+2024-12-27 00:51:17,345 ut.models    INFO     start parsing file ut
+2024-12-27 00:51:17,370 ut.models    INFO     finished parsing file ut
+2024-12-27 00:51:17,381 ut.models    INFO     end sverka
+2024-12-27 00:51:17,381 ut.models    INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:51:17,446 ut.models    INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:51:17,446 ut.models    INFO     End Comparing start
+2024-12-27 00:51:17,446 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:51:17,446 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:58:32,686 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:58:32,693 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-27 00:58:34,180 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:58:34,181 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:58:40,263 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 00:58:41,911 ut.views     DEBUG    index
+2024-12-27 00:58:43,365 ut.views     INFO     debit_client
+2024-12-27 00:58:43,365 ut.views     INFO     return file
+2024-12-27 00:58:51,431 ut.views     INFO     debit_client
+2024-12-27 00:58:51,431 ut.views     INFO     method:post:POST
+2024-12-27 00:58:51,432 ut.views     INFO     file_ut:Клиенты УТ.xlsx
+2024-12-27 00:58:51,432 ut.views     INFO     file_bux:Клиенты бух.xlsx
+2024-12-27 00:58:51,432 ut.models    INFO     Comparing start
+2024-12-27 00:58:51,432 ut.models    INFO     start sverka
+2024-12-27 00:58:51,432 ut.models    INFO     start parsing file bux
+2024-12-27 00:58:51,748 ut.models    INFO     end parsing file bux
+2024-12-27 00:58:51,748 ut.models    INFO     start parsing file ut
+2024-12-27 00:58:51,799 ut.models    INFO     finished parsing file ut
+2024-12-27 00:58:51,811 ut.models    INFO     end sverka
+2024-12-27 00:58:51,811 ut.models    INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:58:51,881 ut.models    INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 00:58:51,881 ut.models    INFO     End Comparing start
+2024-12-27 00:58:51,881 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 00:58:51,881 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 01:03:01,099 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\TestDj\settings.py changed, reloading.
+2024-12-27 01:03:01,145 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\TestDj\settings.py changed, reloading.
+2024-12-27 01:03:02,544 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:03:02,593 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-27 01:03:07,087 ut.views     INFO     debit_client
+2024-12-27 01:03:07,087 ut.views     INFO     method:post:POST
+2024-12-27 01:03:07,089 ut.views     INFO     file_ut:Клиенты УТ.xlsx
+2024-12-27 01:03:07,089 ut.views     INFO     file_bux:Клиенты бух.xlsx
+2024-12-27 01:03:07,089 ut.models    INFO     Comparing start
+2024-12-27 01:03:07,090 ut.models    INFO     start sverka
+2024-12-27 01:03:07,090 ut.models    INFO     start parsing file bux
+2024-12-27 01:03:07,404 ut.models    INFO     end parsing file bux
+2024-12-27 01:03:07,404 ut.models    INFO     start parsing file ut
+2024-12-27 01:03:07,454 ut.models    INFO     finished parsing file ut
+2024-12-27 01:03:07,465 ut.models    INFO     end sverka
+2024-12-27 01:03:07,465 ut.models    INFO     saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 01:03:07,528 ut.models    INFO     finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-27 01:03:07,528 ut.models    INFO     End Comparing start
+2024-12-27 01:03:07,528 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
+2024-12-27 01:03:07,528 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки долги клиентов.xlsx__error_bol:False
