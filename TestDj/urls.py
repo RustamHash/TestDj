@@ -23,7 +23,6 @@ from TestDj import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('ut.urls')),
-    path('api/', include('api.urls'))
 ]
 
 if settings.DEBUG:

@@ -17,7 +17,7 @@ menus = [
 
 @csrf_exempt
 def index(request):
-    logger.info('start:index')
+    logger.debug('start:index')
     context = {
         'data': 'Тестовая страница Лепехина',
         'menus': menus
@@ -57,7 +57,6 @@ def debit_provider(request):
             'file': file,
             'menus': menus
         }
-        name = file.name
         return render(request, 'ut/show_result.html', context=context)
     else:
         context = {
