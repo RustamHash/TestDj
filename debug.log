@@ -1606,3 +1606,10 @@ django.utils.datastructures.MultiValueDictKeyError: 'file_ut'
 2024-12-29 14:50:38,178 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
 2024-12-29 14:50:39,639 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-12-29 14:50:39,646 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:53:33,385 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:53:33,452 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:53:35,213 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 15:24:13,661 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 15:24:13,678 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 15:24:15,249 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 15:24:15,249 django.utils.autoreload INFO     Watching for file changes with StatReloader
