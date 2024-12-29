@@ -92,10 +92,12 @@ class CompareDebitClient:
 class CompareDebitProvider(CompareDebitClient):
 
     def save_file(self, df):
-        logger.info(f'provider -- saving file {self.path_save_file} ')
-        file_name = os.path.join(self.path_save_file, 'Результат сверки долги Поставщиков.xlsx')
+        logger.info(f'saving file {self.path_save_file}')
+        os.makedirs(self.path_save_file, exist_ok=True)
+        file_name = 'Результат сверки долги клиентов.xlsx'
+        file_name = os.path.join(self.path_save_file, file_name)
         df.to_excel(file_name)
-        logger.info(f'provider -- finished saving file {self.path_save_file}')
+        logger.info(f'finished saving file {self.path_save_file}')
         return file_name
 
     def parse_file_ut(self):
