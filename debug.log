@@ -1452,3 +1452,157 @@ django.utils.datastructures.MultiValueDictKeyError: 'file_ut'
 2024-12-27 02:34:24,816 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
 2024-12-27 02:34:26,236 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-12-27 02:34:26,295 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:33:24,384 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:33:24,395 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:33:26,026 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:33:26,026 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:34:10,105 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:34:10,113 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:34:11,665 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:34:11,666 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:36:55,561 ut.views     DEBUG    index
+2024-12-29 14:36:56,098 django.request WARNING  Not Found: /favicon.ico
+2024-12-29 14:36:56,403 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:36:57,236 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:36:58,191 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:36:58,917 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:37:05,841 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-29 14:37:05,852 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\views.py changed, reloading.
+2024-12-29 14:37:07,495 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:37:07,528 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:37:08,642 ut.views     DEBUG    index
+2024-12-29 14:37:09,536 ut.views     INFO     compare: compare-stock
+2024-12-29 14:37:09,536 ut.views     INFO     return file
+2024-12-29 14:37:17,222 ut.views     INFO     compare: compare-stock
+2024-12-29 14:37:17,222 ut.views     INFO     method:post:POST
+2024-12-29 14:37:17,223 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:37:17,223 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:37:17,223 ut.models    INFO     Comparing start
+2024-12-29 14:37:17,744 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:37:17,956 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:37:18,010 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:37:18,010 ut.models    INFO     End Comparing start
+2024-12-29 14:37:18,010 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:37:18,010 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:39:01,777 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:39:01,846 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:39:03,248 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:39:03,316 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:39:27,342 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:39:27,692 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:39:28,788 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:39:29,292 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:39:31,223 ut.views     INFO     compare: compare-stock
+2024-12-29 14:39:31,223 ut.views     INFO     method:post:POST
+2024-12-29 14:39:31,224 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:39:31,224 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:39:31,225 ut.models    INFO     Comparing start
+2024-12-29 14:39:31,781 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:39:31,996 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:39:32,055 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:39:32,055 ut.models    INFO     End Comparing start
+2024-12-29 14:39:32,055 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:39:32,055 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:40:13,553 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:40:13,583 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:40:15,164 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:40:15,247 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:40:24,074 ut.views     INFO     compare: compare-stock
+2024-12-29 14:40:24,074 ut.views     INFO     method:post:POST
+2024-12-29 14:40:24,075 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:40:24,075 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:40:24,075 ut.models    INFO     Comparing start
+2024-12-29 14:40:24,571 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:40:24,807 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:40:24,874 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:40:24,874 ut.models    INFO     End Comparing start
+2024-12-29 14:40:24,875 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:40:24,875 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:40:55,823 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:40:55,878 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:40:57,404 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:40:57,423 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:41:01,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:41:03,165 ut.views     INFO     compare: compare-stock
+2024-12-29 14:41:03,166 ut.views     INFO     method:post:POST
+2024-12-29 14:41:03,167 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:41:03,167 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:41:03,167 ut.models    INFO     Comparing start
+2024-12-29 14:41:03,776 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:41:04,024 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:41:04,096 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:41:04,096 ut.models    INFO     End Comparing start
+2024-12-29 14:41:04,097 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:41:04,097 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:42:11,518 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:42:11,743 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:42:13,457 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:42:13,485 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:42:14,912 ut.views     INFO     compare: compare-stock
+2024-12-29 14:42:14,912 ut.views     INFO     method:post:POST
+2024-12-29 14:42:14,913 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:42:14,913 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:42:14,913 ut.models    INFO     Comparing start
+2024-12-29 14:42:15,430 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:42:15,654 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:42:15,712 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:42:15,713 ut.models    INFO     End Comparing start
+2024-12-29 14:42:15,713 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:42:15,713 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:43:21,964 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:43:22,061 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:43:23,700 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:43:23,737 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:46:26,672 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:46:26,709 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:46:28,153 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:46:28,171 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:46:33,555 ut.views     INFO     compare: compare-stock
+2024-12-29 14:46:33,555 ut.views     INFO     method:post:POST
+2024-12-29 14:46:33,556 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:46:33,556 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:46:33,556 ut.models    INFO     Comparing start
+2024-12-29 14:46:34,072 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:46:34,286 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:46:34,343 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:46:34,343 ut.models    INFO     End Comparing start
+2024-12-29 14:46:34,343 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:46:34,343 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:46:59,473 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:46:59,558 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:47:01,175 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:47:01,330 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:47:03,239 ut.views     INFO     compare: compare-stock
+2024-12-29 14:47:03,239 ut.views     INFO     method:post:POST
+2024-12-29 14:47:03,240 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:47:03,240 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:47:03,240 ut.models    INFO     Comparing start
+2024-12-29 14:47:03,756 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:47:03,970 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:47:04,023 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:47:04,024 ut.models    INFO     End Comparing start
+2024-12-29 14:47:04,024 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:47:04,024 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:47:57,950 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:47:58,393 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:47:59,955 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:48:00,212 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:49:16,856 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:49:16,865 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:49:18,460 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:49:18,460 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:49:20,847 ut.views     INFO     compare: compare-stock
+2024-12-29 14:49:20,847 ut.views     INFO     method:post:POST
+2024-12-29 14:49:20,848 ut.views     INFO     file_ut:Остатки УТ.xlsx
+2024-12-29 14:49:20,849 ut.views     INFO     file_bux:Остатки бух.xlsx
+2024-12-29 14:49:20,849 ut.models    INFO     Comparing start
+2024-12-29 14:49:21,441 ut.models    INFO     provider -- finished parsing file ut
+2024-12-29 14:49:21,673 ut.models    INFO     provider -- saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media 
+2024-12-29 14:49:21,743 ut.models    INFO     provider -- finished saving file C:\Users\rhashhanok\PycharmProjects\TestDj\media
+2024-12-29 14:49:21,743 ut.models    INFO     End Comparing start
+2024-12-29 14:49:21,743 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:49:21,744 ut.views     INFO     file_name:C:\Users\rhashhanok\PycharmProjects\TestDj\media\Результат сверки Остатков.xlsx__error_bol:False
+2024-12-29 14:50:38,173 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:50:38,178 django.utils.autoreload INFO     C:\Users\rhashhanok\PycharmProjects\TestDj\ut\models.py changed, reloading.
+2024-12-29 14:50:39,639 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-12-29 14:50:39,646 django.utils.autoreload INFO     Watching for file changes with StatReloader

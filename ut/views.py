@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 menus = [
     {'id': 1, 'name': 'Сверить долги клиентов', 'url': 'debit-client', 'as_active': True},
     {'id': 2, 'name': 'Сверить долги поставщиков', 'url': 'debit-provider', 'as_active': True},
-    {'id': 3, 'name': 'Сверить Остатки', 'url': 'compare-stock', 'as_active': False},
+    {'id': 3, 'name': 'Сверить Остатки', 'url': 'compare-stock', 'as_active': True},
 ]
 
 apps = {
